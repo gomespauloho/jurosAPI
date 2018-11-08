@@ -14,6 +14,10 @@ Para iniciar a api pelo cmd:
 ```
 dotnet run
 ```
+Por padrão utilizará a porta 8080:
+```
+http://localhost:8080
+```
 ### Instruções para os projetos de teste:
 Para iniciar os testes:
 ```
