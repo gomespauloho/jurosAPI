@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  jurosapi:
+    image: jurosapi
+    container_name: "juros-api"
+    build:
+      context: .
+    ports:
+      - "8080:80"
