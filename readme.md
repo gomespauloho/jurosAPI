@@ -3,7 +3,7 @@
 ### Instruções para o projeto __jurosAPI__:
 Para iniciar a api com docker:
 ```
-docker build -t jurosapi
+docker build -t jurosapi .
 docker-compose up -d
 ```
 Para parar a execução da api com docker:
