@@ -9,7 +9,7 @@ namespace jurosAPI.Controllers
         [HttpGet]
         public ActionResult<string> Get()
         {
-            return "https://www.google.com";
+            return "https://github.com/paulloh3n/jurosAPI";
         }
     }
 }

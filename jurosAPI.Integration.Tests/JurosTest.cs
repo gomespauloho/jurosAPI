@@ -58,7 +58,7 @@ namespace jurosAPI.Integration.Tests
         {
             string content = await PegarContentGet("/showmethecode");
 
-            Assert.Equal("https://www.google.com", content);
+            Assert.Equal("https://github.com/paulloh3n/jurosAPI", content);
         }
     }
 }
